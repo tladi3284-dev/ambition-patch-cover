@@ -1,0 +1,19 @@
+# STATUS: BLOCKED — NOT a final glyph list
+#
+# A final required-glyph list cannot be produced yet:
+#   - Final translations are not user-approved (SCENARIO_TITLE_003, _005, _006
+#     each still have open candidates).
+#   - Real byte encoding (hangul_code_map.json + actual encoder) is absent
+#     from this repository, so per-character code-table registration cannot
+#     be checked, and glyph cell reuse-vs-new cannot be determined.
+#   - FONT.N11 / FONT12.N11 pristine status is CANDIDATE_PRISTINE, not
+#     CONFIRMED_PRISTINE, per the handover document (section XIII.4).
+#
+# The 36 unique Hangul syllables below are REFERENCE_ONLY, extracted from the
+# raw candidate text in the handover document. Treat as a rough upper bound
+# for planning purposes only; do not freeze glyph work against this list.
+#
+가 격 계 공 나 네 노 독 라 마 망 무 반 변 부 사 세 승 신 역 오 위 의 자 장 전 지 케 코 쿠 키 테 투 포 하 혼
+
+# Non-hangul characters appearing in candidates (support unverified):
+공백(U+0020) 하이픈-(U+002D) 가운뎃점·(U+00B7)

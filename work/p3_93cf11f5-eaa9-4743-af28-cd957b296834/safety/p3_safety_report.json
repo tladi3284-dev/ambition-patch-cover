@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-07-27",
+  "work_mode": "READ_ONLY",
+  "checks": {
+    "input_files_present_before_after_hash_stable": "N/A — no input files existed to hash; nothing was fetched or downloaded",
+    "game_folder_unmodified": "PASS — no game folder present in this repository; none accessed",
+    "pristine_backups_unmodified": "PASS — no backups present in this repository; none accessed",
+    "sceda_unmodified": "PASS — no SCEDA files exist in this repository; none created or written",
+    "font_unmodified": "PASS — no FONT files exist in this repository; none created or written",
+    "code_table_unmodified": "N/A — hangul_code_map.json not present in this repository",
+    "json_reload_pass": "PASS — all JSON files written this session parse successfully (validated with python3 json.load)",
+    "duplicate_logical_ids": "PASS — none (7 unique logical IDs, SCENARIO_TITLE_001..007)",
+    "slot_capacity_value_consistent_21": "PASS — all ledger entries use slot_capacity=21",
+    "auto_approved_assigned": "PASS — no entry has status APPROVED; all BLOCKED or USER_DECISION_REQUIRED",
+    "auto_p4_entry": "PASS — did not proceed to P4"
+  },
+  "files_written_this_session": [
+    "docs/PROJECT_HANDOVER_v1.0.md",
+    "work/p3_93cf11f5-eaa9-4743-af28-cd957b296834/reports/p2_gap_report.md",
+    "work/p3_93cf11f5-eaa9-4743-af28-cd957b296834/reports/p3_translation_ledger.json",
+    "work/p3_93cf11f5-eaa9-4743-af28-cd957b296834/reports/p3_byte_validation_report.json",
+    "work/p3_93cf11f5-eaa9-4743-af28-cd957b296834/reports/p3_required_characters.json",
+    "work/p3_93cf11f5-eaa9-4743-af28-cd957b296834/reports/p3_required_glyphs.txt",
+    "work/p3_93cf11f5-eaa9-4743-af28-cd957b296834/reports/p3_translation_approval_report.md",
+    "work/p3_93cf11f5-eaa9-4743-af28-cd957b296834/reports/p3_unresolved_items.md",
+    "work/p3_93cf11f5-eaa9-4743-af28-cd957b296834/safety/p3_safety_report.json",
+    "work/p3_93cf11f5-eaa9-4743-af28-cd957b296834/logs/p3_intake_log.md"
+  ],
+  "game_files_created_or_modified": [],
+  "overall_verdict": "BLOCKED",
+  "note": "No violations of the handover document's prohibitions (section XX) occurred. All work this session was documentation/analysis only, derived from text already present in the user-supplied handover document; no actual game asset was read, written, or fabricated."
+}

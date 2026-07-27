@@ -1,0 +1,30 @@
+{
+  "status": "REFERENCE_ONLY",
+  "note": "Derived purely from the Unicode text of the candidate translations listed in the handover document (section XI). This is NOT a byte/encoding validation and NOT a final glyph requirement list — it does not use the project's hangul_code_map.json (absent from this repo) and does not reflect final user-approved wording. Recompute once translations are approved and the real code table is available.",
+  "unique_hangul_syllables": [
+    "가","격","계","공","나","네","노","독","라","마","망","무","반","변",
+    "부","사","세","승","신","역","오","위","의","자","장","전","지","케",
+    "코","쿠","키","테","투","포","하","혼"
+  ],
+  "unique_hangul_syllable_count": 36,
+  "non_hangul_characters_seen": [
+    {"char": " ", "codepoint": "U+0020", "role": "word space"},
+    {"char": "-", "codepoint": "U+002D", "role": "hyphen (SCENARIO_TITLE_005 alt candidate)"},
+    {"char": "·", "codepoint": "U+00B7", "role": "middle dot (SCENARIO_TITLE_005 candidate) — code table / font support UNVERIFIED"}
+  ],
+  "per_candidate_char_count_python_len": {
+    "SCENARIO_TITLE_001:가독 계승": 5,
+    "SCENARIO_TITLE_002:오케하자마 전투": 8,
+    "SCENARIO_TITLE_003:노부나가 포위망": 8,
+    "SCENARIO_TITLE_003:신장 포위망": 6,
+    "SCENARIO_TITLE_004:혼노지의 변": 6,
+    "SCENARIO_TITLE_005:코마키·나가쿠테 전투": 11,
+    "SCENARIO_TITLE_005:코마키-나가쿠테 전투": 11,
+    "SCENARIO_TITLE_005:코마키 나가쿠테 전투": 11,
+    "SCENARIO_TITLE_005:코마키·나가쿠테": 8,
+    "SCENARIO_TITLE_006:마사무네의 반격": 8,
+    "SCENARIO_TITLE_006:마사무네의 역공": 8,
+    "SCENARIO_TITLE_007:세키가하라 전투": 8
+  },
+  "caveat": "python len() counts Unicode code points, not the project's custom-encoding byte width. It must not be used to judge fits_slot against the 21-byte SCEDA slot capacity."
+}

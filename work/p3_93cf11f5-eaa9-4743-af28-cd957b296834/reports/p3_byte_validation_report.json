@@ -1,0 +1,13 @@
+{
+  "status": "BLOCKED",
+  "reason": "Real per-character byte encoding requires the project's custom hangul_code_map.json and its actual encoder implementation. Neither exists in this repository (tladi3284-dev/taishi is empty apart from files created in this session). Per the handover document (section XVIII.2), UTF-8 length, CP949 length, plain character counts, or generic CP932 encoding attempts must NOT be substituted for the real code table — so no byte_check result is produced here.",
+  "slot_constraints_confirmed_from_handover": {
+    "offset": "0x1AE",
+    "slot_capacity_bytes": 21,
+    "terminator": "single 0x00",
+    "padding": "0x00 fill",
+    "usable_string_bytes_excl_terminator": 20
+  },
+  "entries": "see reports/p3_translation_ledger.json — all encoded_hex/encoded_length/fits_slot fields are null/UNKNOWN",
+  "next_action": "Provide hangul_code_map.json + encoder (or run this validation in an environment that has them) before any BYTE_CHECK_PASS/FAIL can be issued."
+}
