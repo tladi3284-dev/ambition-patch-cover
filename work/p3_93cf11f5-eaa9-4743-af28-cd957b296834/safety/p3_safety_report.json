@@ -1,5 +1,6 @@
 {
   "generated_at": "2026-07-27",
+  "handover_doc_version": "v2.0",
   "work_mode": "READ_ONLY",
   "checks": {
     "input_files_present_before_after_hash_stable": "N/A — no input files existed to hash; nothing was fetched or downloaded",
@@ -16,6 +17,8 @@
   },
   "files_written_this_session": [
     "docs/PROJECT_HANDOVER_v1.0.md",
+    "docs/PROJECT_HANDOVER_v2.0.md",
+    "docs/CHANGELOG.md",
     "work/p3_93cf11f5-eaa9-4743-af28-cd957b296834/reports/p2_gap_report.md",
     "work/p3_93cf11f5-eaa9-4743-af28-cd957b296834/reports/p3_translation_ledger.json",
     "work/p3_93cf11f5-eaa9-4743-af28-cd957b296834/reports/p3_byte_validation_report.json",

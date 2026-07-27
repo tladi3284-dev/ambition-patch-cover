@@ -28,3 +28,23 @@
    `93cf11f5-eaa9-4743-af28-cd957b296834` from the handover document for
    naming continuity only — no data under that ID was actually accessible
    from this session.
+
+## Second intake — v2.0 consolidated handover (same date)
+
+9. User supplied a "통합 프로젝트 인수인계서 v2.0" — a consolidated rewrite of
+   the same project. No new actual files were attached (no P0-P2 JSON, no
+   `hangul_code_map.json`, no encoder, no game binaries). Diffed v1.0 vs v2.0
+   text and found only document-level changes: Fail-Closed principle made
+   explicit, `CODE_MAP_MODIFICATION: PROHIBITED` added, a reference SHA-256
+   for `capture_ocr_helper.py` added, `BLOCKED_P2_EVIDENCE` status named, and
+   — most relevant — the 21-byte slot-overflow risk list expanded from 1
+   title (SCENARIO_TITLE_005) to 5 titles (002, 003, 005, 006, 007).
+10. Created `docs/PROJECT_HANDOVER_v2.0.md` as the new authoritative document,
+    marked `docs/PROJECT_HANDOVER_v1.0.md` as superseded, and added
+    `docs/CHANGELOG.md` to track version history going forward per the
+    user's request.
+11. Updated `reports/p3_unresolved_items.md` and `reports/p2_gap_report.md`
+    with the v2.0 delta. Did not regenerate byte/glyph validation, since the
+    blocking condition (missing inputs) is unchanged.
+12. Status remains BLOCKED. No game files touched. No branch/PR change needed
+    (single-branch repo, no base to open a PR against).

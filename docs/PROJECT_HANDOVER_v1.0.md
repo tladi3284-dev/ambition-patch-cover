@@ -1,5 +1,8 @@
 # 《신장의 야망 11 천하창세 PK》 자연 한글패치 — 전체 프로젝트 인수인계서 v1.0
 
+> **SUPERSEDED by `docs/PROJECT_HANDOVER_v2.0.md`.** Kept for history only —
+> see `docs/CHANGELOG.md` for what changed. Do not treat this file as current.
+
 - 작성 기준일: 2026-07-27
 - 프로젝트 상태: 진행 중
 - 공식 단계: Stage P3 준비 및 자동 검증 대기

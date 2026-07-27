@@ -1,7 +1,12 @@
 {
   "generated_at": "2026-07-27",
+  "handover_doc_version": "v2.0",
   "status": "BLOCKED",
-  "status_reason": "P2 screen-mapping evidence and hangul_code_map.json / actual encoder are absent from this repository (see reports/p2_gap_report.md). Byte-level fields below are NOT computed with the project's real code table and MUST NOT be treated as byte_check results.",
+  "status_reason": "P2 screen-mapping evidence and hangul_code_map.json / actual encoder are absent from this repository (see reports/p2_gap_report.md). Byte-level fields below are NOT computed with the project's real code table and MUST NOT be treated as byte_check results. Re-confirmed after receiving the v2.0 consolidated handover document: no new input files were provided, so this status is unchanged.",
+  "slot_overflow_risk_flagged_v2": [
+    "SCENARIO_TITLE_002", "SCENARIO_TITLE_003", "SCENARIO_TITLE_005",
+    "SCENARIO_TITLE_006", "SCENARIO_TITLE_007"
+  ],
   "entries": [
     {
       "logical_id": "SCENARIO_TITLE_001",
