@@ -1,5 +1,26 @@
 # Handover Document Changelog
 
+## localizer_track/ACTUAL_GAME_READONLY_VALIDATION — 2026-07-31 (2nd)
+- Instructed to run `localizer/` (commit `84f67ad`) read-only against the
+  real game install at `GAME_ROOT: C:\Program Files (x86)\Steam\steamapps\
+  common\Nobunaga11WPK`.
+- That path is a Windows-local Steam path and does not exist in this
+  remote Linux session; searched the repo, session uploads, and the whole
+  filesystem for `*.n11`/`grp`/`steam`/`nobunaga` — found nothing but this
+  session's own synthetic pytest fixtures. No real `msg/res/grp` files are
+  reachable here.
+- Did not fabricate scan/hash/parse results. Verified `git log` matches
+  the instructed `BASE_COMMIT` and re-ran `pytest tests/ -v` (29/29 pass,
+  synthetic fixtures only) as the one thing that could be honestly
+  checked. Reproduced `validate-path --game-root <the given path>` to
+  confirm it correctly reports `ok: false` rather than crashing.
+- Wrote `docs/localizer_track/ACTUAL_GAME_READONLY_VALIDATION.md` with
+  verdict `BLOCKED`, plus empty-header `artifacts/localizer/*.csv` and a
+  `BLOCKED`-status `msg_parse_results.json` — no invented rows.
+- SCEDA P0-P3 track untouched. Next step needs either running this
+  pipeline on the user's own machine where `GAME_ROOT` is real, or
+  uploading actual `msg/*.n11` / `res/*` files to this session.
+
 ## localizer_track — 2026-07-31
 - Received a separate spec document, `CLAUDE_CODE_SPEC.md`, describing a
   parallel technical track: a Python `localizer/` workbench targeting

@@ -1,0 +1,10 @@
+{
+  "status": "BLOCKED",
+  "reason": "GAME_ROOT (Windows local Steam path) is not reachable from this remote session; no real msg/*.n11 files were available to parse.",
+  "base_commit": "84f67ad",
+  "files_tested": 0,
+  "results": {
+    "normal_n11f": [],
+    "yabou_variant": []
+  }
+}
