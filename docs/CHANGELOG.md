@@ -1,5 +1,32 @@
 # Handover Document Changelog
 
+## localizer_track — 2026-07-31
+- Received a separate spec document, `CLAUDE_CODE_SPEC.md`, describing a
+  parallel technical track: a Python `localizer/` workbench targeting
+  `msg/*.n11` (N11F pointer-table format) rather than the SCEDA
+  scenario-title byte slots covered by the P0-P3 pipeline above. Saved to
+  `docs/localizer_track/CLAUDE_CODE_SPEC.md`.
+- The spec claimed "44 tests passing, 11 modules complete," but this
+  repository had none of that code — only the spec markdown was uploaded.
+  Per the project's own no-fabrication principle, this was flagged to the
+  user rather than assumed. User chose to have the codebase built from
+  scratch in this repo, based only on the spec's own structure/behavior
+  description (no invented game-file evidence).
+- Implemented `localizer/` (11 modules: `models`, `project_manager`,
+  `path_validator`, `baseline_manager`, `workcopy_creator`,
+  `format_classifier`, `file_scanner`, `msg_viewer`, `translation_schema`,
+  `glossary_manager`, `res_inventory`, `image_research_viewer`, `cli`) and
+  `tests/` (29 tests, synthetic fixtures only, no real game bytes), plus
+  `requirements.txt` and `README.md`. All safety principles from the spec
+  (original-read-only, workcopy separation, honest CONDITIONAL/UNKNOWN
+  classification, translation status gate, deterministic-build hash
+  verification) are enforced in code and covered by regression tests.
+  `python3 -m pytest tests/ -v` — 29/29 passed.
+- This track is independent of, and does not change, the SCEDA
+  scenario-title P0-P3 pipeline's BLOCKED status described below — real
+  `msg/res/grp` game files, `SCEDA`/`FONT.N11` parsers, and control-code
+  catalogs are still not present in this repo.
+
 ## v2.0 — 2026-07-27
 - Superseded v1.0 with the consolidated handover ("통합 프로젝트 인수인계서").
 - No new actual artifacts (P0-P2 JSON/reports, `hangul_code_map.json`, real
