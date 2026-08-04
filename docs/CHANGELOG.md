@@ -1,5 +1,49 @@
 # Handover Document Changelog
 
+## localizer_track/ACTUAL_GAME_READONLY_VALIDATION_v2 — 2026-08-04
+- User asked to "restart the project, driven by you" after a pasted message
+  (falsely written in first person) claimed a statistical MSGn-tag/pointer
+  correlation result that didn't exist anywhere in this repo/session. While
+  scoping what a real restart could mean, discovered that **Google Drive API
+  access to the actual game source folder works from this session** —
+  `mcp__Google_Drive__search_files` against the R2 report's
+  `VERIFIED_SOURCE_ROOT` returned the exact folder structure the report
+  describes, including 70 real `msg/*.n11` files. This is a different access
+  channel from the v1 validation's Windows-local-path attempt (`BLOCKED`
+  because `C:\...` doesn't exist in this Linux container) — nobody had tried
+  Drive API access until now.
+- User chose the narrowest of four offered scopes: real-data validation only
+  (no translation, no MSGn-tag/pointer correlation research).
+- Downloaded all 70 real `msg/*.n11` files read-only into
+  `work/nobu11_workspace/source_reference/msg/`, independently size-verified
+  (70/70 exact match, 0 missing/extra) both by the downloading subagent and
+  separately by this session directly against the filesystem.
+- Ran the existing `localizer/` CLI pipeline (`project-init` → `validate-path`
+  → `scan` → `make-workcopy`) against the real files with zero code changes,
+  plus direct `msg_viewer.read_n11f_container`/`read_yabou_container` calls
+  on all 70 files. Result: 69/69 normal-variant files parse with matching
+  boundary marker and clean CP932 decode; `yabou.n11` reproduces the exact
+  documented header values (`[308, 26292, 0, 0]`, 307 offset entries, text2
+  starting with `,,Error`) for the first time against real bytes. All 70
+  files classify as `CONDITIONAL` (never `SUPPORTED`), matching the
+  fail-closed principle. No parser bugs found; `localizer/msg_viewer.py` was
+  not modified.
+- Superseded `docs/localizer_track/ACTUAL_GAME_READONLY_VALIDATION.md` (kept
+  for history) with
+  `docs/localizer_track/ACTUAL_GAME_READONLY_VALIDATION_v2.md`, verdict
+  changed from `BLOCKED` to real, evidence-backed results.
+- Updated `artifacts/localizer/{original_sha256,file_inventory,
+  format_classification}.csv` and `msg_parse_results.json` from empty
+  placeholders to real content (70 rows each). `res_inventory.csv` stays
+  empty — this pass confirmed `res/` genuinely doesn't exist in the Drive
+  source root, rather than being merely unreachable as v1 assumed.
+- Explicitly **not done** this pass: MSGn-tag/pointer-table correlation
+  research (the thing the suspicious pasted message claimed), control-code
+  catalog work, `grp/FONT.N11`/`FONT12.N11` download or analysis, any
+  translation work from the R2 report, real game execution (no Windows
+  environment available here). `python3 -m pytest tests/ -v` — still 29/29
+  pass (synthetic fixtures untouched).
+
 ## NOBU11_REDUCED_SCOPE_DESIGN_REPORT_R2 — 2026-08-04
 - Received a user-uploaded `.docx` (`nobu11______________________R2.docx`):
   a Revision-2 "reduced-scope" project design report

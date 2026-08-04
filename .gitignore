@@ -1,3 +1,12 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Real copyrighted game bytes (msg/*.n11 read-only reference mirror + its
+# workcopy) — never committed, same principle as the synthetic-only test
+# fixture rule in README.md. SHA-256 hashes and parse results (which don't
+# reproduce the copyrighted content) live in work/nobu11_workspace/reports/
+# and artifacts/localizer/ instead.
+work/nobu11_workspace/source_reference/
+work/nobu11_workspace/working/
+work/nobu11_workspace/backup/

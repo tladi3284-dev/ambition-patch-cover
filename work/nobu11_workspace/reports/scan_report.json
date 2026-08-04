@@ -1,0 +1,422 @@
+[
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile01.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile02.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile03.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile04.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile05.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile06.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile07.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile08.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile09.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile10.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile11.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile12.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile13.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile14.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile15.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile16.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile17.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile18.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile19.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile20.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile21.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Bfile22.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/Jfile01.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/KFile01.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/KFile02.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/KFile03.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/KFile04.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/KFile05.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/KFile06.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/KFile07.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/KFile08.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/KFile09.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/KFile10.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/KFile11.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/after_war.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/after_war2.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/after_war_ronkou.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/ending_hanyou.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/help.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/jisetsu.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/kaimei.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/kassen_editor_and_trial.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/naibu_editor.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/pk_event00.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/pk_event01.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/pk_event02.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/pk_help1.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/pk_help2.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/pk_mapeditor.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/pk_seiryaku.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/premov.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/revent00.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/revent01.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/revent02.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/rifevent00.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/rifevent00_01.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/rifevent00_02.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/rifevent01.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/rifevent02.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/rifevent03.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/root.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/seiryaku.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/seiryaku_hanyou.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/shoki_settei.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/shutsujin.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/tutorial.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/war_event.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/war_non_standard.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/war_standard.n11",
+    "file_format": "MSG_N11F_TEXT_PLUS_POINTER_TABLE",
+    "support_status": "CONDITIONAL",
+    "reason": "N11F magic matched; text region parses as CP932 with no encryption (measured on 69/69 sample files), but pointer-table-to-message mapping is unresolved, so writes are not SUPPORTED yet."
+  },
+  {
+    "path": "/home/user/taishi/work/nobu11_workspace/source_reference/msg/yabou.n11",
+    "file_format": "MSG_YABOU_ASCII_DECIMAL",
+    "support_status": "CONDITIONAL",
+    "reason": "yabou.n11 variant: read-only parser verified for text region 1 and the error-message tail; pointer/offset-table semantics not fully closed (spec 2.3), so not SUPPORTED for writes."
+  }
+]
