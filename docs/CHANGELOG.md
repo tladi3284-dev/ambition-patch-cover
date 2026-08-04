@@ -1,5 +1,35 @@
 # Handover Document Changelog
 
+## NOBU11_REDUCED_SCOPE_DESIGN_REPORT_R2 — 2026-08-04
+- Received a user-uploaded `.docx` (`nobu11______________________R2.docx`):
+  a Revision-2 "reduced-scope" project design report
+  (`DOCUMENT_ID: NOBU11_REDUCED_SCOPE_DESIGN_REPORT_20260805`) proposing to
+  narrow all *future active work* from the exhaustive reverse-engineering
+  track (MSG/pointer/control-code/font/EXE analysis) down to a minimal,
+  batch-based, natural-Korean MSG-file translation workflow.
+- Converted verbatim to Markdown (stdlib XML walk of `word/document.xml`,
+  preserving headings/bullets/code blocks) and saved to
+  `docs/NOBU11_REDUCED_SCOPE_DESIGN_REPORT_R2.md`, alongside
+  `PROJECT_HANDOVER_v1.0.md`/`v2.0.md` since it is a project-wide scope/
+  operation baseline rather than a `localizer_track`-specific technical spec.
+- Per the document's own Ⅲ section, all prior project data/research is to be
+  preserved, not discarded — nothing in this repository was deleted or
+  rewritten as part of this ingestion.
+- Flagged two gaps between the document's assumptions and current repo state
+  (documented in full in the new file's "잉입 시 확인 사항" section):
+  1. The document's Ⅵ/ⅩⅣ batch workflow assumes routine "MSG 파일 재구성"
+     (MSG file rebuild/write-back), but `README.md` and
+     `docs/localizer_track/CLAUDE_CODE_SPEC.md` §2.3/§3 currently list MSG
+     write/rebuild as intentionally unimplemented — the N11F pointer-update
+     rule needed for a safe rebuild is still unsolved.
+  2. The document's `VERIFIED_SOURCE_ROOT`/`VERIFIED_SOURCE_MSG`/
+     `VERIFIED_SOURCE_GRP` Google Drive verification claims are the
+     document's own assertions; this ingestion did not independently access
+     or confirm those folders.
+- **Document-only ingestion.** No changes to `localizer/`, `tests/`,
+  `README.md`, or `docs/localizer_track/CLAUDE_CODE_SPEC.md` — the reduced-
+  scope batch workflow itself was not started.
+
 ## localizer_track/ACTUAL_GAME_READONLY_VALIDATION — 2026-07-31 (2nd)
 - Instructed to run `localizer/` (commit `84f67ad`) read-only against the
   real game install at `GAME_ROOT: C:\Program Files (x86)\Steam\steamapps\
