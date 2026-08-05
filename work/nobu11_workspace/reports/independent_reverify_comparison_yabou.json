@@ -1,0 +1,11 @@
+{
+  "boundary_ok": "CONSISTENT",
+  "header_values": "CONSISTENT",
+  "offset_value_count": "CONSISTENT",
+  "offset_values_equal": "CONSISTENT",
+  "text1_length": "CONSISTENT",
+  "text1_content_equal": "CONSISTENT",
+  "text2_length": "CONSISTENT",
+  "text2_content_equal": "CONSISTENT",
+  "text2_starts_with_Error": "CONSISTENT"
+}

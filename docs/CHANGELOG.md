@@ -1,5 +1,49 @@
 # Handover Document Changelog
 
+## F11N_INDEPENDENT_IMPLEMENTATION_REVERIFY_001 — 2026-08-05
+- User (acting as "control tower") assigned a follow-up TASK_SPEC:
+  independent-implementation reverification of the N11F/yabou structural
+  observations from the prior real-data validation, rather than expanding
+  scope further. Read-only; explicitly excludes msg modification,
+  translation, game execution, FONT/EXE analysis, and repacking.
+- Phase A: confirmed via `grep` that this repo has exactly one existing
+  N11F/yabou implementation (`localizer/msg_viewer.py`) — no "Stage2" or
+  other parser exists here. Wrote a second, standalone implementation for
+  this task, `scripts/independent_n11f_verifier.py`, importing nothing from
+  `localizer` (stdlib only), using a different parsing style. Disclosed the
+  honest limit: both implementations share the same already-documented
+  byte-offset facts, so this is independent *implementation*, not independent
+  *discovery* — it catches coding bugs, not shared misreadings of the format.
+- Phase B/C: ran the new implementation against the same 70 real files and
+  compared every field (pointer_table_offset, pointer_count, boundary marker,
+  CP932 decode success, full decoded-text string equality for normal files;
+  header values, offset-value array equality, full text1/text2 string
+  equality for `yabou.n11`) against the original `localizer/msg_viewer.py`
+  output. Result: 0 `DIFFERENT`, 0 `UNKNOWN` across all 70 files and all
+  compared fields — full details in
+  `docs/localizer_track/F11N_INDEPENDENT_IMPLEMENTATION_REVERIFY_001_REPORT.md`.
+  (Caught and fixed one internal mistake during this task: an earlier draft
+  of the yabou text1-content comparison was hardcoded to `CONSISTENT` without
+  actually checking it — corrected to a real byte-for-byte comparison before
+  this was recorded anywhere.)
+- Phase D: raised the evidence level for the N11F/yabou byte-layout
+  observations from "Reproduced Observation" (single implementation, 70
+  files) to "Cross-Validated Observation" (two independent implementations
+  agree), within the stated implementation-vs-discovery limit.
+  Pointer↔message-span mapping and other CLAUDE_CODE_SPEC.md §2.3 unresolved
+  items are explicitly unchanged — not attempted.
+- Wrote the two required outputs:
+  `docs/localizer_track/F11N_INDEPENDENT_IMPLEMENTATION_REVERIFY_001_DECISION.md`
+  and `..._REPORT.md`. Both checked against the task's banned-term list
+  (confirmed/solved/proved/final/complete) — one real violation
+  ("Confirmed to import nothing...") was found and fixed before commit; all
+  remaining occurrences of those words are meta-discussion explicitly stating
+  they aren't used as verdicts.
+- `STATUS: PRELIMINARY`, `VERIFICATION: REVERIFY_REQUIRED` per the task's own
+  expected-status template — this strengthens existing evidence, it does not
+  close any open question. `python3 -m pytest tests/ -v` — still 29/29 pass;
+  `localizer/*.py` untouched.
+
 ## localizer_track/ACTUAL_GAME_READONLY_VALIDATION_v2 — 2026-08-04
 - User asked to "restart the project, driven by you" after a pasted message
   (falsely written in first person) claimed a statistical MSGn-tag/pointer
