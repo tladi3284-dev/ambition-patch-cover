@@ -1,3 +1,10 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# NOBU ToolHub runtime output (Foundation R1 Ⅲ.3) — regenerated at runtime, not committed
+NOBU_ToolHub/logs/*.log*
+NOBU_ToolHub/config/toolhub_config.json
+NOBU_ToolHub/cache/*
+NOBU_ToolHub/workspace/*
+!NOBU_ToolHub/**/.gitkeep
