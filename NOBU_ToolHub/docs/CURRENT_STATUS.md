@@ -8,7 +8,8 @@ Current Status(본 문서) → 실행.
 ## 상태코드
 
 - FOUNDATION: R1 (불변, 수정 없음)
-- PROJECT_STATE: READY_FOR_PHASE1 → **PHASE1_IMPLEMENTED_PENDING_REVIEW**
+- PROJECT_STATE: READY_FOR_PHASE1 → PHASE1_IMPLEMENTED_PENDING_REVIEW → **TASK_SPEC_DRAFTED_PENDING_CONFIRMATION**
+- TASK_SPEC: `NOBU_TOOLHUB_PHASE1_RESTART_001` — DRAFT, 사용자 확정 대기 (`docs/TASK_SPEC_PHASE1_RESTART_001.md`)
 - NOBU16 신뢰등급: CANDIDATE (CE 해당 여부 미확인, 추가 검증 필요 — 변경 없음)
 
 ## 이번 세션 변경 보고 (Governance Ⅳ.1)
@@ -66,22 +67,49 @@ config_manager.py, version_resolver.py)" 상태는 이 저장소의 커밋 이�
   갱신 예정(커밋 전 실행). 기존 `tests/` (localizer) 전체도 회귀 여부 확인을
   위해 함께 실행한다.
 
+## 후속 세션 갱신 — TASK_SPEC_PHASE1_RESTART_001 작성 + 사전 확인
+
+사용자가 "TASK_SPEC(NOBU_TOOLHUB_PHASE1_RESTART_001)을 확정한다"고 요청했으나,
+해당 원문은 이 저장소·이 세션 업로드 폴더 어디에도 없었다(사용자 확인: "다시
+새로 생성해야 함"). 사용자 결정에 따라 §"이번 세션 변경 보고"의 산출물
+(커밋 `88dd690`, draft PR #2)을 **기존 베이스라인으로 선언**하고,
+`docs/TASK_SPEC_PHASE1_RESTART_001.md`를 신규 작성했다(DRAFT, 사용자 확정 대기).
+기존 5개 구현 파일과 테스트는 이번 갱신에서 수정하지 않았다.
+
+**사전 확인(pre-check) 결과** (읽기 전용, TASK_SPEC §6 절차 그대로 실행):
+
+```
+$ git log --oneline -3
+88dd690 Implement NOBU ToolHub Phase 1 core engine from Foundation R1 baseline
+16148ef Report BLOCKED for real-game-file read-only validation: GAME_ROOT unreachable
+84f67ad Implement localizer/ workbench from scratch per CLAUDE_CODE_SPEC.md
+
+$ find NOBU_ToolHub -type f | sort   # __pycache__ 제외, 실제 목록은 TASK_SPEC §2 표 참고
+NOBU_ToolHub/__init__.py
+NOBU_ToolHub/launcher/{__init__,config_manager,game_path_finder,logger_setup,main,tool_manager,version_resolver}.py
+NOBU_ToolHub/{cache,config,logs,plugins,tools,workspace}/.gitkeep
+NOBU_ToolHub/docs/{FOUNDATION_R1.md,CURRENT_STATUS.md,TASK_SPEC_PHASE1_RESTART_001.md}
+
+$ python3 -m pytest tests/ -q
+61 passed in 0.17s
+```
+
+모든 경로가 실제로 존재하며, §2 베이스라인 표와 100% 일치한다. 회귀 없음.
+
 ## 추가 확인 사항 (Governance Ⅳ.1가 완료 기준 미충족 항목)
 
-1. **Phase 번호 불일치**: Foundation R1 Ⅳ.2에는 "Phase 1 = Foundation
-   (Architecture/Project Skeleton)", "Phase 2 = Core Engine(Tool Manager/
-   Configuration Manager/Game Path Finder)"로 구분되어 있으나, 이번 세션에
-   전달된 진행 상황 요약은 이 5개 모듈 전체를 "Phase 1(Core Engine)"으로
-   지칭했다. Foundation 문서 자체는 수정하지 않았으므로, 이 번호 불일치는
-   해석 차이인지 승인된 범위 변경인지 다음 세션에서 확인이 필요하다.
+1. ~~**Phase 번호 불일치**~~ — `TASK_SPEC_PHASE1_RESTART_001` §3.1에서 해소:
+   이 프로젝트 트래킹 기준 "Phase 1"을 스켈레톤+5개 Core Engine 모듈 통합
+   범위로 명시적으로 재정의(Foundation R1 원문은 미수정). TASK_SPEC이 사용자
+   확정을 받으면 이 항목은 완전히 종결된다.
 2. **NOBU16 CE 여부**: 여전히 미확인, CANDIDATE 등급 유지. 실제 게임 폴더
    내용을 읽기 전용으로 확인하기 전까지 AUTHORITATIVE/VERIFIED_SINGLE로
-   격상하지 않는다.
-3. **Phase 1 최종 PASS 승인**: 이 문서는 변경 보고이자 자체 검증 결과이지,
-   승인 선언이 아니다. Governance Ⅳ.1가의 완료 기준 5개(요구사항 충족 /
-   정상 동작 / 기존 기능 유지 / 검증 결과 제공 / 변경사항 명확 보고) 중
-   앞의 4개는 이번 커밋으로 충족을 시도했으나, 실제 TASK_SPEC 원문 대조
-   또는 별도 검증 세션의 PASS 판정은 여전히 대기 중이다.
+   격상하지 않는다. (TASK_SPEC §5에서 "Phase 1 PASS를 막지 않는 기록된
+   한계"로 명시.)
+3. **Phase 1 최종 PASS 승인**: 여전히 사용자 판단 대기. `TASK_SPEC_PHASE1_
+   RESTART_001` §4의 완료 기준 5항목에 근거해 사용자가 직접 판정한다 —
+   이 문서나 TASK_SPEC 자체가 PASS를 선언하지 않는다.
 4. **실제 Steam/Windows 환경 미검증**: 이 세션은 Linux 샌드박스이므로
    `GamePathFinder`/`ToolManager`는 단위 테스트(합성 픽스처)로만 검증됨.
-   실제 PC에서의 자동 감지·도구 실행 검증은 별도로 필요하다.
+   실제 PC에서의 자동 감지·도구 실행 검증은 별도로 필요하다. (TASK_SPEC §5에
+   기록된 한계로 명시.)
