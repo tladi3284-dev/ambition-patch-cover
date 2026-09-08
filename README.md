@@ -1,4 +1,46 @@
-# nobunaga11pk_localizer
+# NOBU11PK 천하창세 PK 한국어 패치
+
+이 저장소는 **《신장의 야망 11 PK / 천하창세 PK》 한국어 패치의 공식 배포·안내 저장소**입니다.
+
+## 현재 배포 기준
+
+- 배포 버전: **v1.0.19**
+- 최종 실행 대상: 지정 노트북
+- USB 최종 배포 보관소: `D:\NOBU11PK_KOREAN_PATCH\`
+- 최종 패키지 ZIP: `NOBU11PK_KoreanPatch_1.0.19.zip`
+- ZIP SHA-256: `70f6ea182624681330b14a13a021d82944153a05e3e750a854dbf53e487d4063`
+- USB 패키지 검증: **PASS**
+- 실제 게임 기동/시작 메뉴 런타임 검증: **PASS**
+
+> GitHub Release의 ZIP 자산 업로드는 별도 게시 단계입니다. 이 저장소의 문서와 체크섬은 현재 검증된 v1.0.19 배포 기준을 설명합니다.
+
+## 설치 및 실행
+
+1. Steam에서 《신장의 야망 11 PK / 천하창세 PK》가 정상 설치되어 있는지 확인합니다.
+2. 배포 패키지를 원하는 위치에 압축 해제합니다.
+3. `NOBU11PK_KoreanPatch.exe`를 실행합니다.
+4. 런처에서 **한글판 실행**을 사용해 게임을 실행합니다.
+5. 런타임 문자열 패치가 필요한 항목은 반드시 한국어 패치 런처를 통해 실행해야 합니다.
+
+자세한 내용은 [`docs/설치_및_사용_설명서.md`](docs/설치_및_사용_설명서.md)를 참고하십시오.
+
+## 중요: Steam 무결성 검사
+
+Steam의 **게임 파일 무결성 검사 / 설치 파일 확인·복구**를 실행하면 한국어 패치가 적용된 게임 파일이 일본어 원본으로 복구될 수 있습니다.
+
+실제 검증에서 패치 대상 107개 파일이 모두 원본 상태로 복구되는 현상이 확인되었습니다. 이런 작업을 수행한 경우 기존 런타임 PASS 상태를 그대로 신뢰하지 말고, 최신 검증 패키지를 다시 설치한 뒤 런타임 검증을 수행해야 합니다.
+
+## 배포물 무결성
+
+배포 ZIP의 SHA-256은 [`SHA256SUMS.txt`](SHA256SUMS.txt)에서 확인할 수 있습니다.
+
+이 저장소에는 원본 게임 실행 파일이나 저작권이 있는 원본 게임 데이터의 배포를 목적으로 하지 않습니다. 패치·런처·설명서 등 배포에 필요한 자료만 관리합니다.
+
+---
+
+# 개발/워크벤치 정보
+
+아래 내용은 한국어 패치의 리버스 엔지니어링 및 현지화 워크벤치에 관한 개발 정보입니다.
 
 《信長の野望11 天下創世PK》("Nobunaga's Ambition 11: Souzou no Tenka PK") 자연
 한글패치를 위한 리버스 엔지니어링/현지화 워크벤치. 단순 번역기·바이너리
@@ -110,7 +152,7 @@ docs/localizer_track/CLAUDE_CODE_SPEC.md
 
 ```bash
 python -m localizer.cli project-init --root <dir> --original-source <path> \
-  --workcopy <path> --backup <path> --output <path>
+  --workcopy <workcopy dir> --backup <backup dir> --output <output dir>
 python -m localizer.cli validate-path --game-root <path>
 python -m localizer.cli scan --root <dir>
 python -m localizer.cli make-workcopy --root <dir> [--allow-existing]
