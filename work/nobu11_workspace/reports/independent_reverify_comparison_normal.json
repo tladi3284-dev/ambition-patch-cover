@@ -1,0 +1,583 @@
+{
+  "per_file": [
+    {
+      "file": "Bfile01.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile02.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile03.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile04.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile05.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile06.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile07.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile08.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile09.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile10.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile11.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile12.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile13.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile14.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile15.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile16.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile17.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile18.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile19.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile20.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile21.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Bfile22.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "Jfile01.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "KFile01.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "KFile02.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "KFile03.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "KFile04.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "KFile05.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "KFile06.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "KFile07.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "KFile08.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "KFile09.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "KFile10.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "KFile11.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "after_war.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "after_war2.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "after_war_ronkou.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "ending_hanyou.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "help.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "jisetsu.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "kaimei.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "kassen_editor_and_trial.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "naibu_editor.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "pk_event00.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "pk_event01.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "pk_event02.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "pk_help1.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "pk_help2.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "pk_mapeditor.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "pk_seiryaku.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "premov.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "revent00.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "revent01.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "revent02.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "rifevent00.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "rifevent00_01.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "rifevent00_02.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "rifevent01.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "rifevent02.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "rifevent03.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "root.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "seiryaku.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "seiryaku_hanyou.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "shoki_settei.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "shutsujin.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "tutorial.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "war_event.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "war_non_standard.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    },
+    {
+      "file": "war_standard.n11",
+      "pointer_table_offset": "CONSISTENT",
+      "pointer_count": "CONSISTENT",
+      "boundary_ok": "CONSISTENT",
+      "cp932_decode_ok": "CONSISTENT",
+      "decoded_text_equal": "CONSISTENT"
+    }
+  ],
+  "summary": {
+    "pointer_table_offset": {
+      "CONSISTENT": 69,
+      "DIFFERENT": 0,
+      "UNKNOWN": 0
+    },
+    "pointer_count": {
+      "CONSISTENT": 69,
+      "DIFFERENT": 0,
+      "UNKNOWN": 0
+    },
+    "boundary_ok": {
+      "CONSISTENT": 69,
+      "DIFFERENT": 0,
+      "UNKNOWN": 0
+    },
+    "cp932_decode_ok": {
+      "CONSISTENT": 69,
+      "DIFFERENT": 0,
+      "UNKNOWN": 0
+    },
+    "decoded_text_equal": {
+      "CONSISTENT": 69,
+      "DIFFERENT": 0,
+      "UNKNOWN": 0
+    }
+  }
+}

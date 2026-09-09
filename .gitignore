@@ -1,3 +1,19 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# Real copyrighted game bytes (msg/*.n11 read-only reference mirror + its
+# workcopy) — never committed, same principle as the synthetic-only test
+# fixture rule in README.md. SHA-256 hashes and parse results (which don't
+# reproduce the copyrighted content) live in work/nobu11_workspace/reports/
+# and artifacts/localizer/ instead.
+work/nobu11_workspace/source_reference/
+work/nobu11_workspace/working/
+work/nobu11_workspace/backup/
+
+# Raw independent-verifier output embeds full decoded game text (extracted
+# CP932 dialogue/UI strings), same copyrighted-content concern as the .n11
+# mirror above. The comparison summaries derived from it
+# (independent_reverify_comparison_*.json) contain only CONSISTENT/DIFFERENT
+# verdicts and booleans/counts, not the text itself, so those stay committed.
+work/nobu11_workspace/reports/independent_verifier_results.json

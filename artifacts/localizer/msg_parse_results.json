@@ -1,10 +1,511 @@
 {
-  "status": "BLOCKED",
-  "reason": "GAME_ROOT (Windows local Steam path) is not reachable from this remote session; no real msg/*.n11 files were available to parse.",
-  "base_commit": "84f67ad",
-  "files_tested": 0,
+  "status": "VALIDATED_AGAINST_REAL_FILES",
+  "reason": "70 real msg/*.n11 files retrieved read-only from the Google Drive VERIFIED_SOURCE_MSG folder and parsed with the existing localizer/msg_viewer.py parser, unmodified.",
+  "base_commit": "f8e6b58",
+  "files_tested": 70,
   "results": {
-    "normal_n11f": [],
-    "yabou_variant": []
+    "normal_n11f": [
+      {
+        "file": "Bfile01.n11",
+        "boundary_ok": true,
+        "pointer_count": 2386,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile02.n11",
+        "boundary_ok": true,
+        "pointer_count": 2214,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile03.n11",
+        "boundary_ok": true,
+        "pointer_count": 2227,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile04.n11",
+        "boundary_ok": true,
+        "pointer_count": 2222,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile05.n11",
+        "boundary_ok": true,
+        "pointer_count": 2224,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile06.n11",
+        "boundary_ok": true,
+        "pointer_count": 2227,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile07.n11",
+        "boundary_ok": true,
+        "pointer_count": 2224,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile08.n11",
+        "boundary_ok": true,
+        "pointer_count": 2228,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile09.n11",
+        "boundary_ok": true,
+        "pointer_count": 2226,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile10.n11",
+        "boundary_ok": true,
+        "pointer_count": 2230,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile11.n11",
+        "boundary_ok": true,
+        "pointer_count": 2237,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile12.n11",
+        "boundary_ok": true,
+        "pointer_count": 2231,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile13.n11",
+        "boundary_ok": true,
+        "pointer_count": 2233,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile14.n11",
+        "boundary_ok": true,
+        "pointer_count": 2229,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile15.n11",
+        "boundary_ok": true,
+        "pointer_count": 2234,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile16.n11",
+        "boundary_ok": true,
+        "pointer_count": 2232,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile17.n11",
+        "boundary_ok": true,
+        "pointer_count": 2235,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile18.n11",
+        "boundary_ok": true,
+        "pointer_count": 2231,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile19.n11",
+        "boundary_ok": true,
+        "pointer_count": 2235,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile20.n11",
+        "boundary_ok": true,
+        "pointer_count": 2234,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile21.n11",
+        "boundary_ok": true,
+        "pointer_count": 2224,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Bfile22.n11",
+        "boundary_ok": true,
+        "pointer_count": 2227,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "Jfile01.n11",
+        "boundary_ok": true,
+        "pointer_count": 329,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 65
+      },
+      {
+        "file": "KFile01.n11",
+        "boundary_ok": true,
+        "pointer_count": 2113,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "KFile02.n11",
+        "boundary_ok": true,
+        "pointer_count": 2067,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "KFile03.n11",
+        "boundary_ok": true,
+        "pointer_count": 2121,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "KFile04.n11",
+        "boundary_ok": true,
+        "pointer_count": 2125,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "KFile05.n11",
+        "boundary_ok": true,
+        "pointer_count": 2109,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "KFile06.n11",
+        "boundary_ok": true,
+        "pointer_count": 2126,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "KFile07.n11",
+        "boundary_ok": true,
+        "pointer_count": 2160,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "KFile08.n11",
+        "boundary_ok": true,
+        "pointer_count": 2149,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "KFile09.n11",
+        "boundary_ok": true,
+        "pointer_count": 2123,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 250
+      },
+      {
+        "file": "KFile10.n11",
+        "boundary_ok": true,
+        "pointer_count": 451,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 50
+      },
+      {
+        "file": "KFile11.n11",
+        "boundary_ok": true,
+        "pointer_count": 4111,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 410
+      },
+      {
+        "file": "after_war.n11",
+        "boundary_ok": true,
+        "pointer_count": 6068,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 1248
+      },
+      {
+        "file": "after_war2.n11",
+        "boundary_ok": true,
+        "pointer_count": 1048,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 238
+      },
+      {
+        "file": "after_war_ronkou.n11",
+        "boundary_ok": true,
+        "pointer_count": 1463,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 278
+      },
+      {
+        "file": "ending_hanyou.n11",
+        "boundary_ok": true,
+        "pointer_count": 3316,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 801
+      },
+      {
+        "file": "help.n11",
+        "boundary_ok": true,
+        "pointer_count": 17783,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 2446
+      },
+      {
+        "file": "jisetsu.n11",
+        "boundary_ok": true,
+        "pointer_count": 8544,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 1667
+      },
+      {
+        "file": "kaimei.n11",
+        "boundary_ok": true,
+        "pointer_count": 516,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 163
+      },
+      {
+        "file": "kassen_editor_and_trial.n11",
+        "boundary_ok": true,
+        "pointer_count": 1108,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 138
+      },
+      {
+        "file": "naibu_editor.n11",
+        "boundary_ok": true,
+        "pointer_count": 331,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 39
+      },
+      {
+        "file": "pk_event00.n11",
+        "boundary_ok": true,
+        "pointer_count": 6018,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 787
+      },
+      {
+        "file": "pk_event01.n11",
+        "boundary_ok": true,
+        "pointer_count": 9972,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 1197
+      },
+      {
+        "file": "pk_event02.n11",
+        "boundary_ok": true,
+        "pointer_count": 8582,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 971
+      },
+      {
+        "file": "pk_help1.n11",
+        "boundary_ok": true,
+        "pointer_count": 6707,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 944
+      },
+      {
+        "file": "pk_help2.n11",
+        "boundary_ok": true,
+        "pointer_count": 2578,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 367
+      },
+      {
+        "file": "pk_mapeditor.n11",
+        "boundary_ok": true,
+        "pointer_count": 819,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 104
+      },
+      {
+        "file": "pk_seiryaku.n11",
+        "boundary_ok": true,
+        "pointer_count": 1233,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 181
+      },
+      {
+        "file": "premov.n11",
+        "boundary_ok": true,
+        "pointer_count": 186,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 27
+      },
+      {
+        "file": "revent00.n11",
+        "boundary_ok": true,
+        "pointer_count": 5516,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 929
+      },
+      {
+        "file": "revent01.n11",
+        "boundary_ok": true,
+        "pointer_count": 2197,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 326
+      },
+      {
+        "file": "revent02.n11",
+        "boundary_ok": true,
+        "pointer_count": 634,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 101
+      },
+      {
+        "file": "rifevent00.n11",
+        "boundary_ok": true,
+        "pointer_count": 8810,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 1359
+      },
+      {
+        "file": "rifevent00_01.n11",
+        "boundary_ok": true,
+        "pointer_count": 712,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 78
+      },
+      {
+        "file": "rifevent00_02.n11",
+        "boundary_ok": true,
+        "pointer_count": 5120,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 752
+      },
+      {
+        "file": "rifevent01.n11",
+        "boundary_ok": true,
+        "pointer_count": 11488,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 1708
+      },
+      {
+        "file": "rifevent02.n11",
+        "boundary_ok": true,
+        "pointer_count": 8286,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 1241
+      },
+      {
+        "file": "rifevent03.n11",
+        "boundary_ok": true,
+        "pointer_count": 7243,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 1177
+      },
+      {
+        "file": "root.n11",
+        "boundary_ok": true,
+        "pointer_count": 1060,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 869
+      },
+      {
+        "file": "seiryaku.n11",
+        "boundary_ok": true,
+        "pointer_count": 29287,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 5407
+      },
+      {
+        "file": "seiryaku_hanyou.n11",
+        "boundary_ok": true,
+        "pointer_count": 12217,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 1652
+      },
+      {
+        "file": "shoki_settei.n11",
+        "boundary_ok": true,
+        "pointer_count": 2112,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 289
+      },
+      {
+        "file": "shutsujin.n11",
+        "boundary_ok": true,
+        "pointer_count": 1727,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 458
+      },
+      {
+        "file": "tutorial.n11",
+        "boundary_ok": true,
+        "pointer_count": 5239,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 565
+      },
+      {
+        "file": "war_event.n11",
+        "boundary_ok": true,
+        "pointer_count": 8310,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 1715
+      },
+      {
+        "file": "war_non_standard.n11",
+        "boundary_ok": true,
+        "pointer_count": 1383,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 322
+      },
+      {
+        "file": "war_standard.n11",
+        "boundary_ok": true,
+        "pointer_count": 699,
+        "cp932_decode_ok": true,
+        "tag_candidate_count": 154
+      }
+    ],
+    "yabou_variant": [
+      {
+        "file_size": 20274,
+        "boundary_ok": true,
+        "header_values": [
+          308,
+          26292,
+          0,
+          0
+        ],
+        "offset_value_count": 307,
+        "text1_decode_ok": true,
+        "text1_len": 9243,
+        "text2_decode_ok": true,
+        "text2_starts_with_Error_marker": true,
+        "text2_len_if_decoded": 4385
+      }
+    ]
   }
 }

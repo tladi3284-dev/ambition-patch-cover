@@ -1,0 +1,16 @@
+{
+  "file_size": 20274,
+  "boundary_ok": true,
+  "header_values": [
+    308,
+    26292,
+    0,
+    0
+  ],
+  "offset_value_count": 307,
+  "text1_decode_ok": true,
+  "text1_len": 9243,
+  "text2_decode_ok": true,
+  "text2_starts_with_Error_marker": true,
+  "text2_len_if_decoded": 4385
+}
